@@ -1,0 +1,27 @@
+.footer{
+    /* margin-left : 80px; */
+    font-size : 18px;
+    text-align: center;
+  }
+  .ground{
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    gap: 10px 10px;
+    justify-items: center;
+  }
+  .heros{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .hero{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    text-align: center;
+    border: 1px solid  black;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .score{
+    text-align: center;
+  }
